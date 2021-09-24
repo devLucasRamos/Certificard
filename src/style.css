@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+
+body {
+  background-image: linear-gradient(to bottom, purple , pink);
+  font-family: 'Bonheur Royale';
+}
+.container{
+  background-color: #ECF4FF;
+  color: #1C1C1C;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  padding: 64px
+    
+}
+.cabecalho{
+  display: flex;
+  justify-content: space-between; 
+}
+.perfil{
+  display: flex;
+  
+}
+.perfil-foto{
+  border-radius: 400px;
+  max-height: 260px;
+  box-shadow: 0px 4px 4px #0E1D2F;
+}
+.titulo{
+  margin-left: 50px;
+}
+.titulo h1{
+  font-weight: 700;
+  font-size: 66px;
+}
+.titulo h3{
+  font-weight: 700;
+  font-size: 33px;
+  flex-direction: column;
+  align-items: left;
+  display:flex;
+}
+
+.tema button{
+  align-self: flex-right;
+  font-weight: 4000;
+  font-size: 20px;
+  padding: 8px 16px;
+  background: #333439;
+  color: #F6F6F6;
+  border-radius: 100px;
+}
+
+.projetos{
+  display:flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 33px;
+  background-image: linear-gradient(to bottom, purple , pink);
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px #0E1D2F;
+  padding: 32px;
+  margin-top: 32px
+}
+
+.dark{
+  background-image: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #F6F6F6;
+}
+
+.dark .projetos {
+  background: black;
+  color: gray;
+}
+.dark .tema button{
+  background: white;
+  color: black;
+}
